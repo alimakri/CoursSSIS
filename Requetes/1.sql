@@ -12,3 +12,12 @@ FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL16.INSTANCEA\MSSQL\DATA\
 SIZE = 8192KB , 
 FILEGROWTH = 65536KB 
 )
+
+SELECT        
+	Person.Person.BusinessEntityID, 
+	Person.Person.FirstName, 
+	Person.Person.LastName, Person.Address.City
+FROM            
+	Person.Address 
+	INNER JOIN Person.BusinessEntityAddress ON Person.Address.AddressID = Person.BusinessEntityAddress.AddressID 
+	INNER JOIN Person.Person ON Person.BusinessEntityAddress.BusinessEntityID = Person.Person.BusinessEntityID

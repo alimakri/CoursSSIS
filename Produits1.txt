@@ -1,0 +1,3 @@
+Name, ProductNumber
+Ordinateur, OR-0002
+Clavier, CL-0002

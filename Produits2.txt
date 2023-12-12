@@ -1,0 +1,3 @@
+Name, ProductNumber
+Disque Dur, HD-0002
+Tablette, TB-0002

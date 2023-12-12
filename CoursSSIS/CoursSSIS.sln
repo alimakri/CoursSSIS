@@ -9,6 +9,10 @@ Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "Projet1", "Projet1\Projet1.
 EndProject
 Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "Projet2", "Projet2\Projet2.dtproj", "{F4E5EF23-C9C3-4A90-AAD7-61CCBF21E8D4}"
 EndProject
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "Projet3", "Projet3\Projet3.dtproj", "{52784809-04CE-45CB-AF79-13FCAFF7CC75}"
+EndProject
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "Projet4", "Projet4\Projet4.dtproj", "{7A9E2181-5E61-465A-8D1A-CD3EFE43C3D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,6 +38,18 @@ Global
 		{F4E5EF23-C9C3-4A90-AAD7-61CCBF21E8D4}.Development|Any CPU.Build.0 = Development
 		{F4E5EF23-C9C3-4A90-AAD7-61CCBF21E8D4}.Release|Any CPU.ActiveCfg = Development
 		{F4E5EF23-C9C3-4A90-AAD7-61CCBF21E8D4}.Release|Any CPU.Build.0 = Development
+		{52784809-04CE-45CB-AF79-13FCAFF7CC75}.Debug|Any CPU.ActiveCfg = Development
+		{52784809-04CE-45CB-AF79-13FCAFF7CC75}.Debug|Any CPU.Build.0 = Development
+		{52784809-04CE-45CB-AF79-13FCAFF7CC75}.Development|Any CPU.ActiveCfg = Development
+		{52784809-04CE-45CB-AF79-13FCAFF7CC75}.Development|Any CPU.Build.0 = Development
+		{52784809-04CE-45CB-AF79-13FCAFF7CC75}.Release|Any CPU.ActiveCfg = Development
+		{52784809-04CE-45CB-AF79-13FCAFF7CC75}.Release|Any CPU.Build.0 = Development
+		{7A9E2181-5E61-465A-8D1A-CD3EFE43C3D2}.Debug|Any CPU.ActiveCfg = Development
+		{7A9E2181-5E61-465A-8D1A-CD3EFE43C3D2}.Debug|Any CPU.Build.0 = Development
+		{7A9E2181-5E61-465A-8D1A-CD3EFE43C3D2}.Development|Any CPU.ActiveCfg = Development
+		{7A9E2181-5E61-465A-8D1A-CD3EFE43C3D2}.Development|Any CPU.Build.0 = Development
+		{7A9E2181-5E61-465A-8D1A-CD3EFE43C3D2}.Release|Any CPU.ActiveCfg = Development
+		{7A9E2181-5E61-465A-8D1A-CD3EFE43C3D2}.Release|Any CPU.Build.0 = Development
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

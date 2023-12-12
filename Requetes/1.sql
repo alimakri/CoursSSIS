@@ -24,3 +24,17 @@ BEGIN
 	CONSTRAINT [PK_Personne] PRIMARY KEY CLUSTERED ([Id] ASC),
 	);
 END
+
+SELECT        
+	Person.Person.BusinessEntityID, 
+	Person.Person.FirstName, 
+	Person.Person.LastName, Person.Address.City
+FROM            
+	Person.Address 
+	INNER JOIN Person.BusinessEntityAddress ON Person.Address.AddressID = Person.BusinessEntityAddress.AddressID 
+	INNER JOIN Person.Person ON Person.BusinessEntityAddress.BusinessEntityID = Person.Person.BusinessEntityID
+Where FirstName IS NOT null and LastName is not NULL and City is not null
+Order by BusinessEntityID
+
+select * from BD1.dbo.personne
+
